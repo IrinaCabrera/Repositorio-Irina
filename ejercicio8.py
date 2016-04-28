@@ -1,0 +1,20 @@
+print("coloque las notas de matematicas")
+nm1=int(input("coloque la nota del examen:"))
+nm2=int(input("coloque la nota del primer trabajo:"))
+nm3=int(input("coloque la nota del segundo trabajo:"))
+nm4=int(input("coloque la nota del tercer trabajo:"))
+promat= (((nm1*90)+(((nm2+nm3+nm4)/3)*10)))/100
+print("el promedio sera de:",promat)
+print("coloque las notas de fisica")
+nf1=int(input("coloque la nota del examen:"))
+nf2=int(input("coloque la nota del primer trabajo:"))
+nf3=int(input("coloque la nota del segundo trabajo:"))
+profis= (((nm1*80)+(((nf2+nf3)/2)*20)))/100
+print("el promedio sera de:",profis)
+print("coloque las notas de quimica")
+nq1=int(input("coloque la nota del examen:"))
+nq2=int(input("coloque la nota del primer trabajo:"))
+nq3=int(input("coloque la nota del segundo trabajo:"))
+nq4=int(input("coloque la nota del primer trabajo:"))
+proquim= (((nq1*85)+(((nq2+nq3+nq4)/3)*15)))/100
+print("el promedio sera de:",proquim)
