@@ -1,0 +1,36 @@
+{{extend 'layout.html'}}
+
+<h1>Welcome to Chuwal</h1>
+<nav class="navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+    </button>
+    <a class="navbar-brand" href="#"><img src="https://lh3.googleusercontent.com/hK39biSrQY3ze4pDUmwWZcIDB1QtJzm-UW-nnmJg5pFbiX1uTfajVhBGeEF7CJOCWnHSWQ=w1331-h576"width="125"height="30"</a>
+  </div>
+ 
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+    </ul>
+ 
+    <ul class="nav navbar-nav navbar-right">
+      <li><a></a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          Juanchito21<img src="https://lh4.googleusercontent.com/XBi2wW1tousKGNlKPbM_NbHvtpudBFawoU_ASb-R6ABvMXAR5BDANegoi5UBDX4cJNSwQg=s190"width="25"height="25" class="img-circle"><b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="divider"></li>
+          <li><a href="#">Perfil</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Cambiar Foto</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Ayuda</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Cerrar Sesion</a></li>
+          <li><a href="#"><img src="https://lh6.googleusercontent.com/mPuqad30C1eK1rv21pS-bXQc6CFIFjR9XkuSQRD9BvCIeyst2icJ0kttGsaifo-WNj6YWA=s190"width="15"height="15"</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
