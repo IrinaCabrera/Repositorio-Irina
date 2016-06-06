@@ -1,0 +1,21 @@
+{{extend 'layout.html'}}
+
+<h1>Welcome to Chuwal</h1>
+
+</head>
+<body>
+    <div class="btn">
+  <button type="button" class="btn dropdown-toggle"
+          data-toggle="dropdown">
+    <img src="https://lh3.googleusercontent.com/lPZgW4uUKhSEMHAgHKTJLjuBiyEvyY6N3z3Ntj5euB1rSrE8PVmHVcnLu7Ez1r6Hu4T8cQ=s190"width="110"height="80"> <span class="caret"></span>
+  </button>
+ 
+  <ul class="dropdown-menu" role="menu">
+    <li class="divider"></li>
+    <li><a href="#"><img src="https://lh4.googleusercontent.com/yYjdJTaqUOyW2wadIfn81mJpg2jwjUsIfcOOTc6K3X_6rwoH4OrCUZRC4qHIOBBFw620Ig=s190"width="80"height="80"></a></li>
+    <li class="divider"></li>
+    <li><a href="#"><img src="https://lh5.googleusercontent.com/3Z-9OTURJwVGNeUQLa63fHFYtr-ywHbna6pRc11-UoDEKvsWQXEH5S3osBqhxT1lFm4vxw=s190"width="80"height="80"></a></li>
+    <li class="divider"></li>
+    <li><a href="#"><img src="https://lh6.googleusercontent.com/DTPu5Heqnkfk730jEe1_nY7OBbuE8d2bmLOmz7IwIvgdGqXkbV3kP0TxdYUscpgDgseBVg=s190"width="80"height="80"></a></li>
+  </ul>
+</div>
