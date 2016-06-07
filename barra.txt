@@ -1,0 +1,35 @@
+{{extend 'layout.html'}}
+
+<h1>Welcome to Chuwal</h1>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      </button>
+      <a class="navbar-brand"><img src=../static/images/chuwalBlanco.png width="150" height="35"></a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav navbar-right">
+        <li type="button" class="btn btn-default"><a href="#">LOGROS</a></li>
+        <ul class="nav navbar-nav navbar-right">
+        <li type="button" class="btn btn-default"><a href="#">RANKING</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button ">
+              JUANCHITO21<img src=../static/images/user.png class="img-circle" width="43" height="43">
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">PERFIL</a></li>
+              <li class="divider"></li>
+            <li><a href="#">CAMBIAR FOTO</a></li>
+              <li class="divider"></li>
+            <li><a href="#">AYUDA</a></li>
+            <li class="divider"></li>
+            <li><a href="#">CERRAR SESION</a></li>
+            </ul>
+            </li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+</nav>
